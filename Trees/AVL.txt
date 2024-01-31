@@ -1,0 +1,104 @@
+Types of rotation
+
+1) Left Left Rotate
+2) Left Right Rotate
+3) Right Right Rotate
+4) Right Left Rotate
+
+
+Left Left 
+
+         A
+        / \
+       B   Ar
+      / \
+     C   Br
+    / \
+   Cl  Cr
+
+After rotation
+
+       B
+      / \
+     C    A
+    / \  / \
+   Cl Cr Br Ar
+
+
+Left Right
+
+       A
+      / \
+     B   Ar
+    / \
+   Bl  C
+      / \
+     Cl  Cr
+
+After first rotation
+
+       A
+      / \
+     C   Ar
+   /   \
+  B     Cr
+ / \
+Bl  Cl
+
+After Second rotation
+
+       C
+     /   \
+    B     A
+   / \   / \
+  Bl Cl Cr Ar
+
+Right Left rotation
+
+        A
+       / \
+      Al  B
+         / \
+        C   Br    
+       / \
+      cl  Cr
+
+After first rotation
+
+         A
+       /   \
+      Al    C
+           / \
+          Cl  B
+             / \
+            cr  Br
+
+After Second rotation
+
+        C
+      /   \
+     A     B
+    / \   / \
+   Al Cl Cr   Br
+
+
+Right Right
+
+   A
+  / \
+ Al  B
+    / \
+   Bl  C 
+      / \
+     Cl  Cr
+
+After rotation
+
+        B
+     /     \
+    A       C 
+   / \     / \
+  Al  Bl Cl   Cr
+
+
+  
