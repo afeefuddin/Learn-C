@@ -1,0 +1,5 @@
+Dijkstra algorithm is used to find the shortest distance from a source to all other vertices
+
+1) Basic way using matrix
+
+    
